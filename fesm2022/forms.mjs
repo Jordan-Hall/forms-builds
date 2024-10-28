@@ -3810,7 +3810,7 @@ class AbstractFormGroupDirective extends ControlContainer {
     /** @internal */
     _checkParentType() { }
     static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "19.1.0-next.0+sha-dca1483-with-local-changes", ngImport: i0, type: AbstractFormGroupDirective, deps: null, target: i0.ɵɵFactoryTarget.Directive }); }
-    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "19.1.0-next.0+sha-dca1483-with-local-changes", type: AbstractFormGroupDirective, isStandalone: false, usesInheritance: true, ngImport: i0 }); }
+    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "19.1.0-next.0+sha-dca1483-with-local-changes", type: AbstractFormGroupDirective, isStandalone: false, selector: "[abstractFormGroup], [AbstractFormGroup]", usesInheritance: true, ngImport: i0 }); }
 }
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "19.1.0-next.0+sha-dca1483-with-local-changes", ngImport: i0, type: AbstractFormGroupDirective, decorators: [{
             type: Directive,

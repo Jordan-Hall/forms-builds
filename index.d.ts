@@ -954,7 +954,7 @@ export declare class AbstractFormGroupDirective extends ControlContainer impleme
      */
     get formDirective(): Form | null;
     static ɵfac: i0.ɵɵFactoryDeclaration<AbstractFormGroupDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<AbstractFormGroupDirective, never, never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<AbstractFormGroupDirective, "[abstractFormGroup], [AbstractFormGroup]", never, {}, {}, never, never, false, never>;
 }
 
 /**
